@@ -39,8 +39,8 @@ window.dash=(function(){
 .md-page .range{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:10px;font-size:13px;color:#24272C}.md-page .range input{border:1px solid #D9DAE4;border-radius:6px;padding:5px 8px;font-size:13px;font-family:inherit;color:#24272C;background:#fff}.md-page .note{font-size:12px;color:#919DA6;margin-top:6px}
 </style>
 <div class='md-page'>
-<h1>Amazon Ads Dashboard, Aug to 23 Nov 2026</h1>
-<div class='sub'>Built from Amazon Ads performance exports and Seller Central order reports. Ads export covers 29 Aug to 23 Nov. Seller Central order reports cover 13 Aug to 23 Nov.</div>
+<h1>Amazon Ads Dashboard, Aug to 24 Nov 2026</h1>
+<div class='sub'>Built from Amazon Ads performance exports and Seller Central order reports. Ads export covers 29 Aug to 24 Nov. Seller Central order reports cover 13 Aug to 24 Nov.</div>
 <div class='range' id='amz-range'><label>From <input type='date' id='amz-from'></label><label>To <input type='date' id='amz-to'></label><span id='amz-presets' class='bar' style='margin:0'></span></div>
 <div class='bar' id='amz-months'></div>
 <div class='bar' id='amz-products'></div>
@@ -79,7 +79,7 @@ window.dash=(function(){
 <script>
 (function(){
 var S={month:'all',product:'all',tab:'overview',from:'',to:''};window.amzRange=S;
-var MONTHS=[['all','All months'],['2026-08','Aug'],['2026-09','Sep'],['2026-10','Oct'],['2026-11','Nov (to 23rd)']];
+var MONTHS=[['all','All months'],['2026-08','Aug'],['2026-09','Sep'],['2026-10','Oct'],['2026-11','Nov (to 24th)']];
 var TABS=[['overview','Overview'],['day','Day-wise'],['kw','Keywords'],['po','Paid vs organic']];
 function num(v){var n=parseFloat(v);return isNaN(n)?0:n;}
 function inr(n){return '₹'+Math.round(n).toLocaleString('en-IN');}
@@ -7978,7 +7978,7 @@ dash.onData(poRender);
 2026-11-16,2026-11,Sponsored Products,SP | Veg Omega Algal Oil | GKT | Phrase | HO,veg omega 3,872.79,0.0,124,2,0,0
 2026-11-16,2026-11,Sponsored Products,SP | Veg Omega Algal Oil | GKT | Phrase | HO,veg omega 3 supplement,419.61,0.0,19,1,0,0
 2026-11-16,2026-11,Sponsored Products,SP | Veg Omega Algal Oil | GKT | Phrase | HO,wow veg omega 3-6-7-9,342.89,0.0,1,1,0,0
-2026-11-17,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,(Other),0.0,0.0,7342,0,0,0
+2026-11-17,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,(Other),0.0,0.0,7340,0,0,0
 2026-11-17,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,active plus tablets,81.9,0.0,25,1,0,0
 2026-11-17,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,amway all products list,77.88,0.0,14,1,0,0
 2026-11-17,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,cardioluxe,58.21,0.0,1,1,0,0
@@ -8027,10 +8027,9 @@ dash.onData(poRender);
 2026-11-17,2026-11,Sponsored Products,SP | Algal Oil X Fish Oil | Own PT | HO,B0HC3WNSFC,60.06,0.0,19,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Algal Oil X Fish Oil | Own PT | HO,B0HC6GQJ33,21.34,0.0,80,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Creatine X Glutathione | Own PT | HO,B0HC6Y2CRG,76.52,0.0,146,1,0,0
-2026-11-17,2026-11,Sponsored Products,SP | Creatine | Auto | HO,(Other),0.0,0.0,1485,0,0,0
+2026-11-17,2026-11,Sponsored Products,SP | Creatine | Auto | HO,(Other),0.0,0.0,1492,0,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Creatine | Auto | HO,join amazon prime,105.87,0.0,297,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Creatine | Auto | HO,spram count increase power,56.32,0.0,1,1,0,0
-2026-11-17,2026-11,Sponsored Products,SP | Creatine | Auto | HO,vitamin c tablets,40.79,0.0,9,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Creatine | BKT | Exact | HO,(Other),0.0,0.0,16,0,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Creatine | Comp PT | HO,(Other),0.0,0.0,466,0,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Creatine | Comp PT | HO,B0DBL1T67V,65.4,0.0,437,1,0,0
@@ -8137,7 +8136,7 @@ dash.onData(poRender);
 2026-11-17,2026-11,Sponsored Products,SP | Fish Oil X Alga Oil | Own PT | HO,(Other),0.0,0.0,123,0,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Fish Oil X Alga Oil | Own PT | HO,B0HC6PYFL3,96.36,0.0,21,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Glutathione X Creatine | Own PT | HO,(Other),0.0,0.0,51,0,0,0
-2026-11-17,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,(Other),0.0,0.0,18228,0,0,0
+2026-11-17,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,(Other),0.0,0.0,18226,0,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,3.5 mm jack to type c,92.06,0.0,205,2,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,B0GXFWYDQT,50.38,0.0,2,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,amazon now 10 minutes delivery,182.33,0.0,221,1,0,0
@@ -8179,7 +8178,7 @@ dash.onData(poRender);
 2026-11-17,2026-11,Sponsored Products,SP | Glutathione | GKT | Exact | HO,glutathione,240.75,0.0,50,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Glutathione | GKT | Phrase | HO,(Other),0.0,0.0,85,0,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil Astaxanthin | GKT | Exact | HO,(Other),0.0,0.0,44,0,0,0
-2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil Astaxanthin | GKT | Exact | HO,astaxanthin,51.05,0.0,78,1,0,0
+2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil Astaxanthin | GKT | Exact | HO,astaxanthin,51.05,0.0,77,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,(Other),0.0,0.0,451,0,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,spunge,1.8,0.0,5,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,spunge omega 3 fish oil,55.51,2815.24,69,4,2,4
@@ -8187,7 +8186,7 @@ dash.onData(poRender);
 2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Exact | HO,(Other),0.0,0.0,174,0,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Exact | HO,5x strength omega 3 fish oil,119.51,0.0,1,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Exact | HO,fish oil omega 3 with epo dha,115.29,0.0,1,1,0,0
-2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,(Other),0.0,0.0,343,0,0,0
+2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,(Other),0.0,0.0,342,0,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,omega 3 black capsules,65.85,0.0,1,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,omega 3fish oil biotin,66.98,0.0,1,1,0,0
 2026-11-17,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,omega fish oil white bottle,123.01,0.0,2,1,0,0
@@ -8651,7 +8650,7 @@ dash.onData(poRender);
 2026-11-21,2026-11,Sponsored Display,SD | Creatine X Glutathione | Own PT | HO,(none),0.0,0.0,8,0,0,0
 2026-11-21,2026-11,Sponsored Display,SD | Creatine | Comp PT | HO,(none),0.0,0.0,983,0,0,0
 2026-11-21,2026-11,Sponsored Display,SD | Creatine | Views.Rmkt | HO,(none),256.0,0.0,1943,5,0,0
-2026-11-21,2026-11,Sponsored Display,SD | Fish Oil Mix | Views.Rmkt | HO,(none),434.5,0.0,4722,15,0,0
+2026-11-21,2026-11,Sponsored Display,SD | Fish Oil Mix | Views.Rmkt | HO,(none),434.5,0.0,4721,15,0,0
 2026-11-21,2026-11,Sponsored Display,SD | Fish Oil X Algal Oil | Own PT | HO,(none),0.0,0.0,20,0,0,0
 2026-11-21,2026-11,Sponsored Display,SD | Glutathione X Creatine | Own PT | HO,(none),0.0,0.0,17,0,0,0
 2026-11-21,2026-11,Sponsored Display,SD | Glutathione | Views.Rmkt | HO,(none),54.05,0.0,1164,4,0,0
@@ -8761,7 +8760,7 @@ dash.onData(poRender);
 2026-11-21,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,fish oil omega 3 triple strength,95.62,0.0,2,1,0,0
 2026-11-21,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,omega 3fish oil 450epa 300dha,60.28,0.0,1,1,0,0
 2026-11-21,2026-11,Sponsored Products,SP | Veg Omega Algal Oil | GKT | Phrase | HO,(Other),0.0,0.0,19,0,0,0
-2026-11-22,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,(Other),0.0,0.0,4543,0,0,0
+2026-11-22,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,(Other),0.0,0.0,4535,0,0,0
 2026-11-22,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,5000 rupees tablet,77.94,0.0,3,1,0,0
 2026-11-22,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,bliss wellness omega 3,148.31,0.0,11,1,0,0
 2026-11-22,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,cod liver oil capsules,59.62,0.0,3,1,0,0
@@ -8774,13 +8773,13 @@ dash.onData(poRender);
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | BKT | Exact | HO,(Other),0.0,0.0,179,0,0,0
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | BKT | Exact | HO,creatine,221.8,0.0,141,1,0,0
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | BKT | Exact | HO,protin,204.95,0.0,11,1,0,0
-2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,(Other),0.0,0.0,3598,0,0,0
+2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,(Other),0.0,0.0,3595,0,0,0
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,best creatine,231.83,0.0,1,1,0,0
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine,238.94,0.0,206,1,0,0
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine and magnesium,94.49,646.67,2,1,1,1
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine mono hydrate beast life,277.66,0.0,3,1,0,0
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine monohydrate 100g and botel,319.9,0.0,2,1,0,0
-2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine powder,661.66,0.0,812,3,0,0
+2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine powder,661.66,0.0,811,3,0,0
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,gatorade powder,119.6,0.0,1,1,0,0
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,micronized creatine hcl powder,99.63,0.0,1,1,0,0
 2026-11-22,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,nutrabay fizz creatine,54.5,0.0,1,1,0,0
@@ -8798,14 +8797,14 @@ dash.onData(poRender);
 2026-11-22,2026-11,Sponsored Display,SD | Glutathione X Creatine | Own PT | HO,(none),0.0,0.0,31,0,0,0
 2026-11-22,2026-11,Sponsored Display,SD | Glutathione | Views.Rmkt | HO,(none),8.56,0.0,808,1,0,0
 2026-11-22,2026-11,Sponsored Display,TSL X Spunge | Display | 29 Aug'26 | T1,(none),0.0,0.0,0,0,0,0
-2026-11-22,2026-11,Sponsored Products,Growz | SP - fish oil - CT,(Other),0.0,0.0,3650,0,0,0
+2026-11-22,2026-11,Sponsored Products,Growz | SP - fish oil - CT,(Other),0.0,0.0,3616,0,0,0
 2026-11-22,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B0F4DHLH97,71.47,0.0,38,1,0,0
 2026-11-22,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B0G2Y6VXT2,72.41,0.0,25,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Algal Oil X Fish Oil | Own PT | HO,(Other),0.0,0.0,147,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Algal Oil X Fish Oil | Own PT | HO,(Other),0.0,0.0,146,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Algal Oil X Fish Oil | Own PT | HO,B0HC3V26DV,200.93,0.0,7,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Algal Oil X Fish Oil | Own PT | HO,B0HC3WNSFC,51.16,0.0,14,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Creatine X Glutathione | Own PT | HO,(Other),0.0,0.0,13,0,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Creatine | Auto | HO,(Other),0.0,0.0,1670,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Creatine | Auto | HO,(Other),0.0,0.0,1659,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Creatine | Auto | HO,bulking supplements,84.08,0.0,1,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Creatine | BKT | Exact | HO,(Other),0.0,0.0,6,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Creatine | BKT | Exact | HO,spunge creatine,14.87,0.0,3,1,0,0
@@ -8825,12 +8824,12 @@ dash.onData(poRender);
 2026-11-22,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,gat sport creatine,122.39,0.0,1,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,nack creatine monohydrate,150.52,0.0,2,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,wellcore creatine unflavoured,103.93,0.0,1,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Fish Oil High Strength | GKT | Exact | HO,(Other),0.0,0.0,332,0,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Fish Oil High Strength | GKT | Exact | HO,omega 3,399.66,0.0,97,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Fish Oil High Strength | GKT | Exact | HO,omega 3 fish oil capsules,300.71,0.0,377,1,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Fish Oil High Strength | GKT | Exact | HO,(Other),0.0,0.0,301,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Fish Oil High Strength | GKT | Exact | HO,omega 3,399.66,0.0,96,1,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Fish Oil High Strength | GKT | Exact | HO,omega 3 fish oil capsules,300.71,0.0,332,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | BKT | Phrase | HO,(Other),0.0,0.0,51,0,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | Category Targeting | HO,(Other),0.0,0.0,159,0,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,(Other),0.0,0.0,351,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | Category Targeting | HO,(Other),0.0,0.0,158,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,(Other),0.0,0.0,347,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,4x strength omega 3 fish oil,38.94,0.0,12,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,fish oil omega 3 epa 400 dha 350,135.1,0.0,1,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,fish oil triple strength omega 3,113.81,0.0,2,1,0,0
@@ -8840,117 +8839,229 @@ dash.onData(poRender);
 2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,omega 3 supplement for men,180.64,0.0,1,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,omega 3 supplements pharmacy,164.68,0.0,2,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,veg 3x omega 3 supplement,187.07,0.0,1,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,(Other),0.0,0.0,3627,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,(Other),0.0,0.0,3529,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,3 lens fog light,32.86,0.0,2,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,3 seater sofa for living room,34.35,0.0,7,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,ola s1 pro gen 3 accessories,33.29,0.0,3,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,redtape flow plus 3,29.62,0.0,3,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Fish Oil X Alga Oil | Own PT | HO,(Other),0.0,0.0,50,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,redtape flow plus 3,29.62,0.0,2,1,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Fish Oil X Alga Oil | Own PT | HO,(Other),0.0,0.0,49,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Glutathione X Creatine | Own PT | HO,(Other),0.0,0.0,16,0,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,(Other),0.0,0.0,5835,0,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,anti dust plug type c,35.1,0.0,96,1,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,(Other),0.0,0.0,5602,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,anti dust plug type c,35.1,0.0,93,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,apple wired earphone type c,48.1,0.0,4,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,lightning to type c converter,105.4,0.0,450,2,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,lightning to type c converter,105.4,0.0,423,2,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,pilgrim vitamin c night cream,58.09,0.0,1,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,type c extension cable,49.57,0.0,35,1,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,type c extension cable,49.57,0.0,32,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,type c otg adapter,51.78,0.0,17,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,type c splitter,52.48,0.0,25,1,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,type c splitter,52.48,0.0,24,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Glutathione | BKT | Exact | HO,(Other),0.0,0.0,71,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Glutathione | GKT | Exact | HO,(Other),0.0,0.0,2,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Glutathione | GKT | Phrase | HO,(Other),0.0,0.0,2,0,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil Astaxanthin | GKT | Exact | HO,(Other),0.0,0.0,66,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil Astaxanthin | GKT | Exact | HO,(Other),0.0,0.0,65,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil Astaxanthin | GKT | Exact | HO,omega3 fish oil capsules,167.63,0.0,15,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,(Other),0.0,0.0,193,0,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,spunge omega 3 fish oil,18.32,0.0,24,1,0,0
-2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | Comp PT | HO,(Other),0.0,0.0,330,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,(Other),0.0,0.0,174,0,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,spunge omega 3 fish oil,18.32,0.0,20,1,0,0
+2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | Comp PT | HO,(Other),0.0,0.0,329,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Exact | HO,(Other),0.0,0.0,95,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,(Other),0.0,0.0,215,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,vegan omega 3 low dose for kids,66.21,0.0,1,1,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Veg Omega Algal Oil | GKT | Phrase | HO,(Other),0.0,0.0,3,0,0,0
 2026-11-22,2026-11,Sponsored Products,SP | Veg Omega Algal Oil | GKT | Phrase | HO,veg omega 3,46.81,0.0,4,1,0,0
-2026-11-23,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,(Other),0.0,0.0,127,0,0,0
+2026-11-23,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,(Other),0.0,0.0,144,0,0,0
 2026-11-23,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,spunge omega 3 fish oil,18.03,0.0,3,1,0,0
-2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | BKT | Exact | HO,(Other),0.0,0.0,7,0,0,0
-2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,(Other),0.0,0.0,2739,0,0,0
+2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | BKT | Exact | HO,(Other),0.0,0.0,9,0,0,0
+2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,(Other),0.0,0.0,2713,0,0,0
 2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine,300.0,0.0,227,1,0,0
 2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine mono hydrate,300.0,0.0,190,1,0,0
-2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine monohydrate 100g,675.95,0.0,452,3,0,0
+2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine monohydrate 100g,675.95,0.0,446,3,0,0
 2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine monohydrate 250g 700 rs,20.82,0.0,4,1,0,0
 2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine monohydrate tata 1mg,76.14,0.0,1,1,0,0
-2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine powder,305.28,0.0,581,2,0,0
+2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine powder,305.28,0.0,579,2,0,0
 2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine with shaker,139.18,0.0,11,1,0,0
 2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,monohydrate creatine,300.0,0.0,2,1,0,0
 2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,muscletech creatine monohydrate,240.43,0.0,19,2,0,0
 2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,nakpro creatine,49.24,0.0,43,1,0,0
 2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,tata creatine monohydrate,74.44,0.0,19,1,0,0
 2026-11-23,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,wellcore creatine unflavoured,224.37,0.0,42,1,0,0
-2026-11-23,2026-11,Sponsored Brands,TSL x Spunge | SB-GBIS | 29th Aug | T1,(Other),0.21,0.0,3,0,0,0
-2026-11-23,2026-11,Sponsored Display,SD | Algal Oil X Fish Oil | Own PT | HO,(none),0.0,0.0,14,0,0,0
-2026-11-23,2026-11,Sponsored Display,SD | Creatine X Glutathione | Own PT | HO,(none),0.0,0.0,4,0,0,0
-2026-11-23,2026-11,Sponsored Display,SD | Creatine | Comp PT | HO,(none),0.0,0.0,224,0,0,0
-2026-11-23,2026-11,Sponsored Display,SD | Creatine | Views.Rmkt | HO,(none),0.0,0.0,247,0,0,0
-2026-11-23,2026-11,Sponsored Display,SD | Fish Oil Mix | Views.Rmkt | HO,(none),183.03,0.0,916,2,0,0
+2026-11-23,2026-11,Sponsored Brands,TSL x Spunge | SB-GBIS | 29th Aug | T1,(Other),0.47,0.0,6,0,0,0
+2026-11-23,2026-11,Sponsored Display,SD | Algal Oil X Fish Oil | Own PT | HO,(none),0.0,0.0,16,0,0,0
+2026-11-23,2026-11,Sponsored Display,SD | Creatine X Glutathione | Own PT | HO,(none),0.0,0.0,7,0,0,0
+2026-11-23,2026-11,Sponsored Display,SD | Creatine | Comp PT | HO,(none),0.0,0.0,274,0,0,0
+2026-11-23,2026-11,Sponsored Display,SD | Creatine | Views.Rmkt | HO,(none),0.0,0.0,309,0,0,0
+2026-11-23,2026-11,Sponsored Display,SD | Fish Oil Mix | Views.Rmkt | HO,(none),183.03,0.0,1198,2,0,0
 2026-11-23,2026-11,Sponsored Display,SD | Fish Oil X Algal Oil | Own PT | HO,(none),0.0,0.0,5,0,0,0
 2026-11-23,2026-11,Sponsored Display,SD | Glutathione X Creatine | Own PT | HO,(none),0.0,0.0,9,0,0,0
-2026-11-23,2026-11,Sponsored Display,SD | Glutathione | Views.Rmkt | HO,(none),0.0,0.0,176,0,0,0
+2026-11-23,2026-11,Sponsored Display,SD | Glutathione | Views.Rmkt | HO,(none),0.0,0.0,214,0,0,0
 2026-11-23,2026-11,Sponsored Display,TSL X Spunge | Display | 29 Aug'26 | T1,(none),0.0,0.0,0,0,0,0
-2026-11-23,2026-11,Sponsored Products,Growz | SP - fish oil - CT,(Other),0.0,0.0,2278,0,0,0
-2026-11-23,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B075QHMZRQ,120.27,0.0,26,2,0,0
-2026-11-23,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B09WF1J8T4,141.26,0.0,29,2,0,0
-2026-11-23,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B0F4DHLH97,67.3,0.0,12,1,0,0
-2026-11-23,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B0HC3TDWLK,46.42,0.0,16,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Algal Oil X Fish Oil | Own PT | HO,(Other),0.0,0.0,177,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Creatine | Auto | HO,(Other),0.0,0.0,108,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Creatine | Auto | HO,join amazon prime,192.79,0.0,1848,2,0,0
+2026-11-23,2026-11,Sponsored Products,Growz | SP - fish oil - CT,(Other),0.0,0.0,2230,0,0,0
+2026-11-23,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B075QHMZRQ,61.03,0.0,13,1,0,0
+2026-11-23,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B09WF1J8T4,141.26,0.0,34,2,0,0
+2026-11-23,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B0F4DHLH97,67.3,0.0,20,1,0,0
+2026-11-23,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B0HC3TDWLK,46.42,0.0,6,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Algal Oil X Fish Oil | Own PT | HO,(Other),0.0,0.0,140,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Algal Oil X Fish Oil | Own PT | HO,B0HC6GQJ33,39.18,0.0,17,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Creatine | Auto | HO,(Other),0.0,0.0,102,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Creatine | Auto | HO,join amazon prime,178.11,0.0,1900,2,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Creatine | Auto | HO,trexgenics creatine,83.71,0.0,1,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Creatine | BKT | Exact | HO,(Other),0.0,0.0,2,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Creatine | Comp PT | HO,(Other),0.0,0.0,142,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Creatine | Comp PT | HO,B0F13W8L52,70.48,0.0,106,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Creatine | GKT | Exact | HO,(Other),0.0,0.0,7,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Creatine | GKT | Exact | HO,creatine powder,122.19,646.67,6,1,1,1
-2026-11-23,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,(Other),0.0,0.0,175,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Creatine | Comp PT | HO,(Other),0.0,0.0,161,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Creatine | Comp PT | HO,B0F13W8L52,70.48,0.0,142,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Creatine | GKT | Exact | HO,(Other),0.0,0.0,12,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Creatine | GKT | Exact | HO,creatine powder,122.19,646.67,8,1,1,1
+2026-11-23,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,(Other),0.0,0.0,208,0,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,creatine 500gm,130.26,0.0,2,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,creatine 5g per scoop,56.92,0.0,3,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,creatine hcl,107.95,0.0,5,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,creatine monohydrate unflavoured creapure,104.37,0.0,3,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Fish Oil High Strength | GKT | Exact | HO,(Other),0.0,0.0,240,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Fish Oil High Strength | GKT | Exact | HO,(Other),0.0,0.0,266,0,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | BKT | Phrase | HO,(Other),0.0,0.0,10,0,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | BKT | Phrase | HO,spunge,13.61,0.0,3,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | Category Targeting | HO,(Other),0.0,0.0,157,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,(Other),0.0,0.0,188,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | Category Targeting | HO,(Other),0.0,0.0,135,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,(Other),0.0,0.0,199,0,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,enteric coated omega 3 fish oil capsules,190.04,0.0,1,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,fish oil imported,150.3,0.0,1,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,fish oil omega 3 capsule 1000mg,152.05,0.0,8,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,fish oil tablet small,133.4,0.0,1,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,ifos certified fish oil,125.95,0.0,1,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,ifos certified omega 3 fish oil,157.65,0.0,1,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,omega 3 fish oil capsules for all age,99.65,0.0,2,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,omega 3 fish oil capsules nutrabud,142.82,0.0,1,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,pure serving omega 3 fish oil,184.91,0.0,2,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,(Other),0.0,0.0,1479,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,B0HC6Y2CRG,10.0,0.0,3,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,astaxanthin,53.51,0.0,4,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,(Other),0.0,0.0,1843,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,B0HC6Y2CRG,10.0,0.0,2,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,astaxanthin,53.51,0.0,5,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,galaxy buds 3 pro cover,32.21,0.0,2,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,gasket 3 litre prestige cooker,31.6,0.0,5,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,gasket 3 litre prestige cooker,31.6,0.0,10,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,water heater 3 litre,35.32,0.0,1,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Fish Oil X Alga Oil | Own PT | HO,(Other),0.0,0.0,64,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,(Other),0.0,0.0,3306,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Fish Oil X Alga Oil | Own PT | HO,(Other),0.0,0.0,69,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,(Other),0.0,0.0,3290,0,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,ethiglo effervescent tablets,107.03,0.0,1,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,glutathione spunge,92.6,0.0,1,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,skin brightening tablets,118.0,0.0,2,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,type c to laptop charger pin,51.26,0.0,1,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,vitamin e capsule,57.07,0.0,107,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,vitamin e capsule,57.07,0.0,106,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Glutathione | BKT | Exact | HO,spunge,10.67,0.0,11,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Glutathione | BKT | Exact | HO,spunge glutathione,8.78,0.0,1,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Glutathione | GKT | Exact | HO,(Other),0.0,0.0,2,0,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Glutathione | GKT | Phrase | HO,(Other),0.0,0.0,2,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil Astaxanthin | GKT | Exact | HO,(Other),0.0,0.0,61,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil Astaxanthin | GKT | Exact | HO,(Other),0.0,0.0,15,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil Astaxanthin | GKT | Exact | HO,astaxanthin,61.44,0.0,46,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,(Other),0.0,0.0,14,0,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,spunge,3.99,0.0,2,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | Comp PT | HO,(Other),0.0,0.0,132,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | Comp PT | HO,fish oil omega 3 capsule 1000mg,96.18,0.0,74,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Exact | HO,(Other),0.0,0.0,22,0,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,(Other),0.0,0.0,109,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | Comp PT | HO,(Other),0.0,0.0,136,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | Comp PT | HO,fish oil omega 3 capsule 1000mg,96.18,0.0,93,1,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Exact | HO,(Other),0.0,0.0,30,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,(Other),0.0,0.0,131,0,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,omega supplement,91.55,0.0,1,1,0,0
 2026-11-23,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,red omega 3 capsule astaxanthin,110.2,0.0,2,1,0,0
-2026-11-23,2026-11,Sponsored Products,SP | Veg Omega Algal Oil | GKT | Phrase | HO,(Other),0.0,0.0,9,0,0,0
+2026-11-23,2026-11,Sponsored Products,SP | Veg Omega Algal Oil | GKT | Phrase | HO,(Other),0.0,0.0,10,0,0,0
+2026-11-24,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,(Other),0.0,0.0,3392,0,0,0
+2026-11-24,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,how to impress tablets,66.32,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,omega 3 battery seat,50.21,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,refonte tablet,78.97,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,salmon fish oil,167.88,0.0,136,1,0,0
+2026-11-24,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,tab 10000 under,95.43,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,tab acer,11.18,0.0,3,1,0,0
+2026-11-24,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,tabbux,102.34,0.0,2,1,0,0
+2026-11-24,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,tablet evo block,83.21,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Brands,Growz | SB - Manual - 0 - Mixed - 80756,tvs apache rr 310 oil filter,24.5,0.0,3,1,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | BKT | Exact | HO,(Other),0.0,0.0,16,0,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,(Other),0.0,0.0,2146,0,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,clearzlab creatine,238.25,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine,563.85,0.0,147,2,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine monohydrate capsule,257.76,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine monohydrate without sugar,369.56,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatine powder,542.73,0.0,356,2,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,creatinine drops homeopathy,79.01,0.0,4,1,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,muscle blaze creatine powder,367.83,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,no 1 creatine brand in india,178.7,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Brands,SBV | Creatine | GKT | Phrase | HO,nutrabay creatine monohydrate,194.28,0.0,61,1,0,0
+2026-11-24,2026-11,Sponsored Brands,TSL x Spunge | SB-GBIS | 29th Aug | T1,(Other),15.91,0.0,134,0,0,0
+2026-11-24,2026-11,Sponsored Display,SD | Algal Oil X Fish Oil | Own PT | HO,(none),0.0,0.0,33,0,0,0
+2026-11-24,2026-11,Sponsored Display,SD | Creatine X Glutathione | Own PT | HO,(none),0.0,0.0,11,0,0,0
+2026-11-24,2026-11,Sponsored Display,SD | Creatine | Comp PT | HO,(none),0.0,0.0,1003,0,0,0
+2026-11-24,2026-11,Sponsored Display,SD | Creatine | Views.Rmkt | HO,(none),67.1,0.0,1538,2,0,0
+2026-11-24,2026-11,Sponsored Display,SD | Fish Oil Mix | Views.Rmkt | HO,(none),250.45,0.0,5803,7,0,0
+2026-11-24,2026-11,Sponsored Display,SD | Fish Oil X Algal Oil | Own PT | HO,(none),0.0,0.0,29,0,0,0
+2026-11-24,2026-11,Sponsored Display,SD | Glutathione X Creatine | Own PT | HO,(none),0.0,0.0,12,0,0,0
+2026-11-24,2026-11,Sponsored Display,SD | Glutathione | Views.Rmkt | HO,(none),9.49,0.0,992,1,0,0
+2026-11-24,2026-11,Sponsored Products,Growz | SP - fish oil - CT,(Other),0.0,0.0,1378,0,0,0
+2026-11-24,2026-11,Sponsored Products,Growz | SP - fish oil - CT,B0HC3V26DV,44.48,0.0,7,1,0,0
+2026-11-24,2026-11,Sponsored Products,Growz | SP - fish oil - CT,epa supplement,67.59,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,Growz | SP - fish oil - CT,omega 3,59.76,0.0,37,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Algal Oil X Fish Oil | Own PT | HO,(Other),0.0,0.0,21,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine X Glutathione | Own PT | HO,(Other),0.0,0.0,10,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | Auto | HO,(Other),0.0,0.0,415,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | Auto | HO,creaticare,98.27,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | Auto | HO,creatine l theanine,99.55,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | Auto | HO,join amazon prime,102.95,0.0,2074,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | BKT | Exact | HO,spunge,12.55,646.67,9,2,1,1
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | BKT | Exact | HO,spunge creatine,8.0,0.0,3,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | Comp PT | HO,(Other),0.0,0.0,171,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | Comp PT | HO,B0DBL1T67V,65.55,0.0,82,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Exact | HO,(Other),0.0,0.0,18,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Exact | HO,creatine,225.26,0.0,34,2,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,(Other),0.0,0.0,832,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,clearzlab creatine,36.9,0.0,4,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,clearzorb creatine,102.86,0.0,14,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,creatine monohydrate,174.34,0.0,3,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,creatine monohydrate 1 kg,166.66,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,creatine monohydrate 250g nutrabay,154.57,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,creatine monohydrate beast life,149.54,0.0,4,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,sponge creatine,52.13,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Creatine | GKT | Phrase | HO,thorne creatine,127.53,0.0,6,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil High Strength | GKT | Exact | HO,(Other),0.0,0.0,462,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil High Strength | GKT | Exact | HO,omega 3,1478.46,532.38,266,5,1,1
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | BKT | Phrase | HO,(Other),0.0,0.0,54,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | BKT | Phrase | HO,spunge,20.67,0.0,52,3,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | BKT | Phrase | HO,spunge algal oil supplement,33.44,0.0,2,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | BKT | Phrase | HO,spunge fish oil astaxanthin,65.84,1293.32,2,1,1,2
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | BKT | Phrase | HO,spunge omega 3 fish oil with astaxanthin,132.73,0.0,4,2,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | Category Targeting | HO,(Other),0.0,0.0,24,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,(Other),0.0,0.0,875,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,chamber of gods fish oil with astaxanthin,152.29,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,cooking fish oil,137.78,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,fish oil,40.45,0.0,4,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,fish oil omega 3 capsule 1000mg,178.12,0.0,8,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,marine omega 3 fish oil epa and dha capsules for women,135.67,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,miduty fish oil,126.45,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,naturaltein omega 3 fish oil,171.84,0.0,13,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,omega 3 mini capsules,199.73,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,omega 3 packet,143.03,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,omega 3 supplement dha epa,184.9,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,omega 3 under 200,161.38,0.0,2,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,omega 3 with dha,178.17,532.38,1,1,1,1
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,omega 3dpa epa,200.66,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,ospunge omega 3 fish oil,178.68,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Mix ASIN | GKT | Broad | HO,solgar omega 3 fish oil,198.4,0.0,4,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,(Other),0.0,0.0,1358,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,B0DJSPTXF5,48.62,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,B0HCLKTCYB,48.61,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,astaxanthin,47.87,0.0,4,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil Omega 3 | Auto | HO,fish oil,53.73,0.0,7,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Fish Oil X Alga Oil | Own PT | HO,(Other),0.0,0.0,2,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione X Creatine | Own PT | HO,(Other),0.0,0.0,16,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,(Other),0.0,0.0,1432,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,B0HCBF72PS,44.56,0.0,2,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,adult diaper,114.9,0.0,1535,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,amazon instant delivery,57.37,0.0,74,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,anti dust plug type c,45.04,0.0,39,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,glutat nano shot,99.38,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | Auto | HO,supplements,51.47,0.0,2,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | BKT | Exact | HO,spunge,69.53,0.0,101,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | BKT | Exact | HO,spunge glutathione,2.46,0.0,2,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | GKT | Exact | HO,(Other),0.0,0.0,14,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Glutathione | GKT | Phrase | HO,(Other),0.0,0.0,1,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Omega 3 Fish Oil Astaxanthin | GKT | Exact | HO,(Other),0.0,0.0,97,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,(Other),0.0,0.0,124,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,spunge fish oil,158.94,0.0,65,3,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | BKT | Exact | HO,spunge omega 3 fish oil,94.52,608.57,120,3,1,1
+2026-11-24,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | Comp PT | HO,(Other),0.0,0.0,40,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Exact | HO,(Other),0.0,0.0,66,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,(Other),0.0,0.0,321,0,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,genesis omega fish oil,186.8,0.0,1,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Omega 3 Fish Oil | GKT | Phrase | HO,omega 3 with algae,65.59,0.0,0,1,0,0
+2026-11-24,2026-11,Sponsored Products,SP | Veg Omega Algal Oil | GKT | Phrase | HO,(Other),0.0,0.0,16,0,0,0
 </script>
 <script type="text/plain" id="csv-orders">date,asin,product,fulfilment,order_items,units,revenue,month
 2026-08-13,B0HC6GQJ33,Fish Oil + Astaxanthin,Amazon,1,1,699.0,2026-08
@@ -9166,5 +9277,10 @@ dash.onData(poRender);
 2026-11-23,B0HC736XCD,Creatine,Amazon,2,2,1358.0,2026-11
 2026-11-23,B0HC6Y2CRG,Glutathione,Merchant,1,1,799.0,2026-11
 2026-11-23,B0HC6GQJ33,Fish Oil + Astaxanthin,Amazon,1,1,679.0,2026-11
+2026-11-24,B0HC6D4JYT,Veg Omega Algal Oil,Amazon,1,1,639.0,2026-11
+2026-11-24,B0HC736XCD,Creatine,Amazon,1,1,679.0,2026-11
+2026-11-24,B0HC6GQJ33,Fish Oil + Astaxanthin,Amazon,1,2,1358.0,2026-11
+2026-11-24,B0HC3WNSFC,Omega 3 Fish Oil,Amazon,1,1,559.0,2026-11
+2026-11-24,B0HC3TDWLK,Fish Oil High Strength,Amazon,1,1,559.0,2026-11
 </script>
 </body></html>
